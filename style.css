@@ -7,12 +7,13 @@ html {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  background: url(public/bg1.jpg);
+  background: url(public/bg2.jpeg) , brightness(50%);
 }
+
 body {
   margin: 0px;
   padding: 0px;
-  background: url(public/bg2.jpeg);
+  background: url(public/bg2.jpeg)
 }
 .layar-dalam {
   width: 1000px;
@@ -251,6 +252,7 @@ section.quote .layar-dalam p {
   display: inline;
   background: url("asset/quote-icon.png") no-repeat;
   padding: 40px;
+  
 }
 .tim img {
   width: 100%;
@@ -379,7 +381,7 @@ footer .layar-dalam .copyright {
   opacity: 0;
   position: absolute;
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0.279);
+  /*background-color: rgba(0, 0, 0, 0.279);*/
   width: 100%;
   height: 100%;
   display: flex;
@@ -407,3 +409,45 @@ footer .layar-dalam .copyright {
   display: grid;
   grid-template-columns: auto auto auto;
 }
+
+/* RESPONSIF */
+@media (max-width: 768px) {
+  .row img  {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    position:fixed;
+    padding: 25px;
+  }
+  .caption p {
+    text-align: center;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  footer .layar-dalam h5 {
+    margin-top: 0px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .HHU {
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
+  }
+  .quote p {
+    font-size: 5px;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  }
+  .copyright {
+    font-size: 10px
+  }
+  .copyright a {
+    font-size: 10px;
+  }
+  #aboutus .layar-dalam .ringkasan .abuabua  h3 p {
+    font-size: 20px;
+  }
+}
+
