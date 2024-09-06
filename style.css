@@ -412,13 +412,13 @@ footer .layar-dalam .copyright {
 
 /* RESPONSIF */
 @media screen and (max-width: 768px) {
-  .row img  {
+  /*.row img  {
     text-align: center;
     justify-content: center;
     display: flex;
     position:fixed;
     padding: 25px;
-  }
+  }*/
   .caption p {
     text-align: center;
     justify-content: center;
