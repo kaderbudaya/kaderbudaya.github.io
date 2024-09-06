@@ -411,7 +411,7 @@ footer .layar-dalam .copyright {
 }
 
 /* RESPONSIF */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .row img  {
     text-align: center;
     justify-content: center;
