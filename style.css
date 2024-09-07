@@ -122,6 +122,14 @@ header .intro h3 {
    font-family: Courier New;
   color: #fff;
 }
+
+.bot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  size: 4rem;
+}
 .tombol {
   background-color: #c86b85;
   height: 40px;
