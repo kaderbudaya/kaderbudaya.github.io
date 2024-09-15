@@ -8,6 +8,7 @@ html {
   padding: 0;
   scroll-behavior: smooth;
   background: url(public/bg2.jpeg) , brightness(0%);
+  overflow: hidden;
 }
 
 body {
