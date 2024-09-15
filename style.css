@@ -7,7 +7,7 @@ html {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  background: url(public/bg2.jpeg) , brightness(20%);
+  background: url(public/bg2.jpeg) , brightness(0%);
 }
 
 body {
