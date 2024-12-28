@@ -15,21 +15,21 @@
     <link rel="icon" type="image/x-icon" href="img/logokader-removebg-preview.png">
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body onload="hide_loading();">
+<body onload="hide_loading ();">
   <div class="loading overlay">
     <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
-
   </div>
 
-
-    <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center  align-items-center text-white">
-      <main>
+<!-- tampilan awal -->
+<section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center  align-items-center text-white">
+    <main>
       <h1 class="garis animasi-ketikan">ꦯ꧀ꦩꦟ꧀꧇꧑꧇ꦗꦺꦡꦶꦯ꧀</h1>
       <p>Selamat datang di website kader budaya.</p>
     </main>
-  </section>
+</section>
 
-  <nav class="navbar bg-transparent sticky-top mynavbar">
+<!-- navigasi bar -->
+<nav class="navbar bg-transparent sticky-top mynavbar">
     <div class="container">
       <a class="navbar-brand" href="#">cakravaruna</a>
       <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -37,34 +37,24 @@
       </button>
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Cakravaruna</h5>
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="color: darkgoldenrod;">Cakravaruna</h5>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        
         <div class="offcanvas-body">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                About
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#home">Tentang kami</a></li>
-                <li><a class="dropdown-item" href="#story">Strukture</a></li>
-                <li><a class="dropdown-item" href="#sty"> Program kerja</a></li>
-                <li><a class="dropdown-item" href="#gallery">Kegiatan</a></li>
-              </ul>
-            </li>
-
-            <a class="nav-link" href="#ig">Sosmed</a>
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            <a class="nav-link" href="#story">struktur</a>
+            <a class="nav-link" href="#gallery">kegiatan</a>
+            <a class="nav-link" href="#sty">Program kerja</a>
+            <a class="nav-link" href="#ig">sosmed</a>
           </div>
         </div>
       </div>
     </div>
-  </nav>
-    <!--home-->
-    <section id="home" class="home">
+</nav>
+
+<!--home-->
+<section id="home" class="home">
       <div class="kontener">
         <div class="d-flex justify-content-center align-items-center">
           <div class="col-md-8 text-center ">
@@ -77,12 +67,12 @@
           </div>
         </div>
       </div>
-    </section>
+</section>
 
-    <section class="abuabu" id="support">
+<!-- visi misi-->
+<section class="abuabu" id="support">
         <div class="layar-dalam support">
           <div>
-            <!--<img src="asset/matahari.png" />-->
             <h6 style="padding: 5px;">VISI</h6>
             <p class="pj">
               Visi dan misi kader budaya adalah hal yang sangat penting dalam upaya pelestarian dan pengembangan budaya suatu bangsa. Kader budaya berperan sebagai ujung tombak dalam menjaga keberagaman budaya, memperkenalkan nilai-nilai luhur, serta menginspirasi generasi muda untuk terlibat aktif dalam kegiatan kebudayaan.
@@ -90,7 +80,6 @@
           </div>
           
           <div>
-            <!--<img src="asset/kompas.png" />-->
             <h6 style="padding: 5px;">MISI</h6>
             <p class="pj">
               Melestarikan budaya: Menjaga kelangsungan hidup budaya lokal, tradisi, dan warisan budaya.
@@ -100,9 +89,10 @@
             </p>
           </div>
         </div>
-      </section>
+</section>
 
-      <section id="story" class="story">
+<!-- setrukture orgnisasi-->
+<section id="story" class="story">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-md-8 col-10 text-center">
@@ -111,7 +101,6 @@
               <p>2024/2025</p>
             </div>
           </div>
-    
           <div class="row">
             <div class="col">
               <ul class="timeline">
@@ -197,12 +186,11 @@
             </div>
           </div>
         </div>
-      </section>
+</section>
 
 
 <!-- PROGRAM KERJA -->
-
-      <section id="sty" class="story">
+<section id="sty" class="story">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-md-8 col-10 text-center">
@@ -309,11 +297,10 @@
             </div>
           </div>
         </div>
-      </section>
+</section>
 
- 
- 
-    <section id="gallery" class="gallery" style="background-color: #7a7a7a; padding: 2rem;">
+<!-- Kegiatan -->
+<section id="gallery" class="gallery" style="background-color: #7a7a7a; padding: 2rem;">
         <div class="container" style="color: whitesmoke;">
           <div class="row justify-content-center">
             <div class="col-md-8 col-10 text-center">
@@ -348,15 +335,15 @@
         </div>
       </div>
     </div>
-  </section>
+</section>
 
-  <section>
+<!-- sosmed -->
+<section>
     <div class="gallery" id="ig">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-8 col-10 text-center" style="padding: 2rem;">
             <h2>Soaial media</h2>
-            <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, itaque?</p>-->
           </div>
         </div>
         <div class="row row-cols-lg-4 row-cols-md-4 row-cols-sm-2 row-cols-1 justify-content-center">
@@ -374,9 +361,10 @@
           </div>
 
       
-  </section>
+</section>
 
-  <section id="rsvp" class="rsvp">
+<!-- komen -->
+<section id="rsvp" class="rsvp">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-8 col-10 text-center">
@@ -411,7 +399,7 @@
 
     </div>
     </div>
-  </section>
+</section>
 
 
 <!-- footer -->
@@ -435,9 +423,10 @@
   </div>
 </footer>
 
+<!-- lagu-->
 <audio id="audioPlayer" src="audio/INSTRUMENTAL MUSIK GENDING JAWA.mp3" autoplay loop muted></audio>
 
-
+<!-- java scrip-->
       <script>
         const stikytop = document.querySelector('.sticky-top');
         const offcanvas = document.querySelector('.offcanvas');
