@@ -78,11 +78,6 @@
   }
 }
 
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
 .overlay {
   z-index: 99999;
   position: fixed;
@@ -95,10 +90,6 @@ html, body {
   justify-content: center;
   
 }
-
-
-
-
 
 
 
@@ -132,6 +123,7 @@ html, body {
 body {
   font-size: 1.2rem;
   font-family: 'Work Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 garis {
